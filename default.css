@@ -750,3 +750,61 @@ a {
         transform:translateY(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    body{
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+
+    #main{
+        width:100%;
+        overflow:hidden;
+    }
+
+    #wrap{
+        width:1100px;
+        height:680px;
+        transform:scale(0.34);
+        transform-origin:top left;
+        margin-top:20px;
+    }
+
+    /* Moon */
+    .moon-hanger{
+        transform:scale(0.9);
+        transform-origin:top left;
+    }
+
+    /* Clock bigger */
+    #clock-box{
+        left:130px;
+        top:260px;
+        transform:translateX(-50%) scale(1.4);
+    }
+
+    /* Birthday text */
+    #text{
+        left:340px;
+        top:120px;
+        transform:scale(1.25);
+        transform-origin:left top;
+    }
+
+    /* Tree section */
+    #canvas{
+        width:1100px;
+        height:680px;
+    }
+
+    /* Memories section */
+    #photo-section{
+        margin-top:-280px;
+    }
+
+    /* Celebration button */
+    #celebration-button-container{
+        transform:scale(1.2);
+    }
+}
